@@ -27,7 +27,7 @@ public class MyFilter3 implements Filter {
             }
         }
 
-        System.out.println("필터 1");
+        System.out.println("필터 3");
 
         chain.doFilter(req, res);
     }
